@@ -1,0 +1,16 @@
+{
+  "name": "@awesomeem/plugin-ai-discovery",
+  "version": "0.1.0",
+  "description": "EmDash plugin — llms.txt, AI manifest, JSON-LD for every EmDash site",
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./sandbox": "./src/sandbox-entry.ts"
+  },
+  "files": ["src"],
+  "license": "MIT",
+  "peerDependencies": {
+    "emdash": "^0.1.0"
+  }
+}
